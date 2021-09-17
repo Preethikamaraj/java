@@ -1,0 +1,15 @@
+public class Addition {
+
+static int x = 10, y = 20;
+
+static int add(int x , int y) {
+
+return x + y;
+
+}
+
+public static void main (String[] args) {
+
+System.out.println("addition of x and y is " + add(x, y));
+
+}
